@@ -1,9 +1,6 @@
 /*输入：已选择的商品[String]
 * 输出：最优惠的优惠方式,从测试结果来看应该是清单字符串。String
 * */
-loadAllItems=require('./items');
-loadPromotions=require('./promotions');
-
 /*商品类*/
 
 class Item {
@@ -122,6 +119,3 @@ function makeList(selectedItems) {
   }
   return itemList;
 }
-
-
-module.exports=bestCharge;
