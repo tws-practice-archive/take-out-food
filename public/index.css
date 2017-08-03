@@ -1,11 +1,49 @@
-/* 
-请把与index.html页面相关的css代码写在这里
-同时删除该注释
-*/
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: Ubuntu;
+}
+html{
+	width:100%;
+}
+#items{
+	width:100%;
+}
 
-/* #message只是一个示例，可以删除 */
-#message {
-	height: 30px;
-	line-height: 30px;
-	border: 1px solid red;
+#title{
+	text-align: center;
+}
+
+.item{
+	border: solid 1px black;
+	width:12%;
+	float: left;
+	padding: 0px 6.25%;
+	margin-bottom:20px;
+}
+.item p{
+	display: block;
+}
+.item p.itemcount {
+	width: auto;
+	display: inline-block;
+}
+.item select{
+	margin-left: 20px;
+}
+#promotions{
+	clear: left;
+}
+#promotions p{
+	text-align:center;
+}
+#promotions p.promotion{
+	color: brown;
+}
+
+#submit {
+	text-align: center;
+}
+
+#message{
 }
